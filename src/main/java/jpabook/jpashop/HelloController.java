@@ -19,4 +19,9 @@ public class HelloController {
         model.addAttribute("data", "뒤로가 멍청아");
         return "Chanbin";
     }
+
+    @GetMapping("Django")
+    public String Diango(Model model){
+        model.addAttribute("data", "");
+    }
 }
